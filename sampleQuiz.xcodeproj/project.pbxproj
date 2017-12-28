@@ -12,6 +12,7 @@
 		E76058681FF49D5B0001EED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E76058661FF49D5B0001EED6 /* Main.storyboard */; };
 		E760586A1FF49D5B0001EED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E76058691FF49D5B0001EED6 /* Assets.xcassets */; };
 		E760586D1FF49D5B0001EED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760586B1FF49D5B0001EED6 /* LaunchScreen.storyboard */; };
+		E76058761FF49DBF0001EED6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76058751FF49DBF0001EED6 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		E76058691FF49D5B0001EED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E760586C1FF49D5B0001EED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E760586E1FF49D5B0001EED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E76058751FF49DBF0001EED6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E76058771FF4A0340001EED6 /* button56.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = button56.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E76058761FF49DBF0001EED6 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +44,7 @@
 			children = (
 				E76058611FF49D5B0001EED6 /* sampleQuiz */,
 				E76058601FF49D5B0001EED6 /* Products */,
+				E76058741FF49DBE0001EED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +59,7 @@
 		E76058611FF49D5B0001EED6 /* sampleQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				E76058771FF4A0340001EED6 /* button56.mp3 */,
 				E76058621FF49D5B0001EED6 /* AppDelegate.swift */,
 				E76058641FF49D5B0001EED6 /* ViewController.swift */,
 				E76058661FF49D5B0001EED6 /* Main.storyboard */,
@@ -62,6 +68,14 @@
 				E760586E1FF49D5B0001EED6 /* Info.plist */,
 			);
 			path = sampleQuiz;
+			sourceTree = "<group>";
+		};
+		E76058741FF49DBE0001EED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E76058751FF49DBF0001EED6 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
